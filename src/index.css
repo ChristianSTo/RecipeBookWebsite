@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Preahvihear";
+  src: url("src/fonts/Preahvihear-Regular.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  overflow-x: hidden;
+}

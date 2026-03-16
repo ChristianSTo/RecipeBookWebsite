@@ -1,0 +1,42 @@
+.nav__container {
+  display: none;
+  position: sticky;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  background-color: #82c7ec;
+  width: 100%;
+  z-index: 999;
+}
+
+.nav__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-size: 1rem;
+  font-style: none;
+  text-decoration: none;
+  color: #000;
+  background-color: #82c7ec;
+  border: 0px solid #82c7ec;
+  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+  padding: 25px;
+  transition: all 0.3s ease;
+}
+
+.nav__button:hover {
+  cursor: url("../assets/images/blueCursorHover.svg"), pointer;
+  color: #fff;
+  background-color: #fff;
+}
+
+.nav_image {
+  width: 50px;
+  height: 50px;
+}

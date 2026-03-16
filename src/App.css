@@ -1,0 +1,71 @@
+#root {
+  margin: 0px;
+  /* padding: 2rem; */
+  padding: 0px;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  /* background-color: #0a101c; */
+  /* background-color: #125579; */
+  /* background-color: #db677d; */
+  background-color: #ada2ff;
+  background-image: url("./assets/images/repeatingFood.png");
+  background-repeat: repeat;
+  background-size: 200px;
+  background-position: center;
+  object-fit: cover;
+  color: #fff;
+  transition: all 0.75s ease;
+  overflow: hidden;
+  cursor: url("./assets/images/blueCursor.svg"), auto;
+  animation: waterfallAnimation 5s linear infinite;
+}
+
+#root.light {
+  background-color: #fff;
+  color: #0a101c;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  margin: 0px auto;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  outline: none;
+  z-index: 99;
+}
+
+.button:hover {
+  background-color: #3b28cc;
+  color: #fff;
+  cursor: url("../assets/images/blueCursorHover.svg"), pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button_light {
+  color: #fff;
+  background-color: #3b28cc;
+}
+
+.button_light:hover {
+  background-color: #b8e2fa;
+  color: #000;
+}
+
+@keyframes waterfallAnimation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 200px;
+  }
+}

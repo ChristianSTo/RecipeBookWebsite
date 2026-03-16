@@ -1,0 +1,31 @@
+.filter__container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.filter__button {
+  font-family: "Preahvihear";
+  font-size: 18px;
+  color: #fff;
+  background-color: #125579;
+  border: 3.5px solid #fff;
+  border-radius: 50px;
+  width: 100%;
+  max-width: 200px;
+  margin: 0px auto 50px;
+  padding: 20px;
+  transition: 0.3s all ease;
+}
+
+.filter__button:hover {
+  cursor: url("../assets/images/blueCursorHover.svg"), pointer;
+  color: #125579;
+  background-color: #fff;
+}
