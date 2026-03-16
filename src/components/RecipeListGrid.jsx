@@ -86,7 +86,7 @@ function RecipeList() {
       name: "Beef Shank",
       type: "meal",
       description:
-        "1. Put beef shanks whole in deep pan \n2. Pour a full jar of spaghetti tomato sauce into pan \n3. Bring to boil on high \n4. Bring to low, simmer for 2 hours. \n(They never tell is what number high or low is... \nso yeah)",
+        "1. Put beef shanks whole in deep pan \n2. Pour a full jar of spaghetti tomato sauce into pan \n3. Bring to boil on high \n4. Bring to low, simmer for 2 hours. \n(They never tell is what number high or low is...so yeah)",
     },
     {
       image: shrimpCocktail,

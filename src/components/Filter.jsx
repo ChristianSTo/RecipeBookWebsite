@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "../blocks/filter.css";
+import meatIcon from "../assets/images/meatIcon.svg";
+import dessertIcon from "../assets/images/dessertIcon.svg";
+import drinkIcon from "../assets/images/drinkIcon.svg";
 
 function Filter({ filterByAll, filterByBake, filterByMeal, filterBySauce }) {
   return (
@@ -8,13 +11,13 @@ function Filter({ filterByAll, filterByBake, filterByMeal, filterBySauce }) {
         All
       </button>
       <button className="filter__button" onClick={filterByBake}>
-        Bakeries
+        <img className="filter__icon" src={dessertIcon}></img>
       </button>
       <button className="filter__button" onClick={filterByMeal}>
-        Meals
+        <img className="filter__icon" src={meatIcon}></img>
       </button>
       <button className="filter__button" onClick={filterBySauce}>
-        Sauces
+        <img className="filter__icon" src={drinkIcon}></img>
       </button>
     </div>
   );

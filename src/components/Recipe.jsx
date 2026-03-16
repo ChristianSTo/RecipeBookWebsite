@@ -22,13 +22,14 @@ function Recipe({
     setRecipeStyle({
       cursor: `url(${blueCursor}), auto`,
       position: "fixed",
-      top: "35%",
+      top: "33%",
       right: "0px",
       bottom: "0px",
       left: "0px",
-      transform: `scale(2)`,
+      // transform: `scale(2)`,
       zIndex: "3",
-      maxWidth: "500px",
+      height: "50%",
+      maxWidth: "750px",
     });
   };
 
@@ -79,7 +80,20 @@ function Recipe({
       ) : (
         <>
           {" "}
-          <p className="recipe-list_description">{recipeDescription}</p>
+          <div className="recipe-list__container">
+            <button
+              className="recipe__close-button"
+              onClick={removerOverlayRecipe}
+            >
+              X
+            </button>
+            <img
+              className="recipe-list_image"
+              src={recipeImage}
+              alt={recipeName}
+            ></img>
+            <p className="recipe-list_description">{recipeDescription}</p>
+          </div>
         </>
       )}
     </div>

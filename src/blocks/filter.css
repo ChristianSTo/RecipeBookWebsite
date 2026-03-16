@@ -6,7 +6,8 @@
   align-items: center;
   width: 100%;
   max-width: 1200px;
-  margin: 0px;
+  margin: 0px auto 50px;
+  gap: 20px;
   padding: 0px;
 }
 
@@ -17,15 +18,21 @@
   background-color: #125579;
   border: 3.5px solid #fff;
   border-radius: 50px;
-  width: 100%;
-  max-width: 200px;
-  margin: 0px auto 50px;
+  /* width: 100%; */
+  width: 100px;
+  height: 100px;
+  margin: 0px;
   padding: 20px;
   transition: 0.3s all ease;
+  box-sizing: border-box;
 }
 
 .filter__button:hover {
   cursor: url("../assets/images/blueCursorHover.svg"), pointer;
-  color: #125579;
-  background-color: #fff;
+  /* color: #125579; */
+  background-color: #ada2ff;
+}
+
+.filter__icon {
+  width: 50px;
 }
